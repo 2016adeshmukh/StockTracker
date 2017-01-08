@@ -29,7 +29,7 @@
 		startListening(socket);
 	};
 
-	var ticker = "AAPL"; //this is the ticker symbol you want
+	var ticker = "TSLA"; //this is the ticker symbol you want
 
 	var startListening = function(socket) {
 		var channel = socket.channel("iex:securities:" + ticker, {});
