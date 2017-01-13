@@ -1,5 +1,5 @@
-var username = "" //Your Intrinio App Username 
-var password = "" //Your Intrinio App Password 
+var username = "0678c8e25152e0d0274b9d63c7b8eb23" //Your Intrinio App Username 
+var password = "265f1d71952832034406481041f3e6c1" //Your Intrinio App Password 
 var intrinio = require("intrinio-client")(username, password)
  
 intrinio
