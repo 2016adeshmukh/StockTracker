@@ -2,7 +2,7 @@
 	var username = "0678c8e25152e0d0274b9d63c7b8eb23";
 	var password = "265f1d71952832034406481041f3e6c1";
 	var auth_url = "https://realtime.intrinio.com/auth";
-
+<?php
 	$.ajax({
 		type: "GET",
 		url: auth_url,
@@ -16,7 +16,7 @@
 			console.error("Error connecting: ", error);
 		}
 	});
-
+?>
 	var socket_url = "wss://realtime.intrinio.com/socket";
 
 	var connect = function(token) {
